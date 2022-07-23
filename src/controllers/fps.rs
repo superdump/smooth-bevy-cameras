@@ -124,8 +124,8 @@ pub fn default_input_map(
         (KeyCode::A, Vec3::X),
         (KeyCode::S, -Vec3::Z),
         (KeyCode::D, -Vec3::X),
-        (KeyCode::LShift, -Vec3::Y),
-        (KeyCode::Space, Vec3::Y),
+        (KeyCode::Q, -Vec3::Y),
+        (KeyCode::E, Vec3::Y),
     ]
     .iter()
     .cloned()
